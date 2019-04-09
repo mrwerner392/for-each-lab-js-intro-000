@@ -9,5 +9,5 @@ function iterativeLog(array) {
 function iterate(callback) {
   var sports = ['hockey', 'golf', 'baseball'];
   sports.forEach(callback);
-  return array
+  return sports;
 }
