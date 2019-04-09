@@ -4,3 +4,10 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`);
   });
 }
+
+// creates a new array then performs the given callback on the array and returns the new array
+function iterate(callback) {
+  var sports = ['hockey', 'golf', 'baseball'];
+  sports.forEach(callback);
+  return array
+}
